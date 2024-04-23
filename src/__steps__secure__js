@@ -1,0 +1,17 @@
+
+/*
+*   1. Do not show the link to them who should not see it
+*   2. Do not allow to visit the link by typing the URL in the link-bar.
+*   3. use adminRoute that will check the user whether admin or not.
+       If not admin then redirect to any other page like /login.
+*
+*   ----------------------------------------------------------------
+*   to send data ->
+*   ----------------------------------------------------------------
+*   1. verify jwt token (send authorization token to the header in the server)
+        if possible use axios to send jwt token by intercepting the request.
+
+*   2. if it is An admin activity then make sure only admin can posting data
+       by using admin verify.
+*
+*/

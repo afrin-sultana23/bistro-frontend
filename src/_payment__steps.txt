@@ -1,0 +1,13 @@
+
+/*
+*   1. install stripe and react stripe js
+*   2. create a checkout form with card elements( that contains : card number,
+        expiration date, cvc, zip code )
+*   3. create a stripe account and get the publishable key
+*   4. get card info and create a payment method
+*   5. on the server side: install stripe
+*   6. create a payment intent api with payment method types: ['card']
+*   7. make provide amount in cents (multiply the amount by 100)
+*   8. call payment intent api to get client secret and store it in a state
+*   9. use confirmCardPayment api with client secret card info
+*/
